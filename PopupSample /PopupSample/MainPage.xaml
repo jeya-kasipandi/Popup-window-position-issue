@@ -5,10 +5,7 @@
              x:Class="PopupSample.MainPage">
 
    <StackLayout>
-        <Button Text="Open Popup" Clicked="Button_Clicked">
 
-
-        </Button>
         <Entry VerticalOptions="EndAndExpand" Text="Enter text" x:Name="entry" TextChanged="Entry_TextChanged"></Entry>
         <local:SfPopup x:Name="popup"></local:SfPopup>
     </StackLayout>
